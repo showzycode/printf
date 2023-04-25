@@ -27,7 +27,7 @@ int append_hexa_code(char ascii, char buffer[], int index)
 	if (ascii < 0)
 		ascii *= -1;
 
-	buffer[ndex++] = '\\';
+	buffer[index++] = '\\';
 	buffer[index++] = 'x';
 
 	buffer[index++] = map_to[ascii / 16];

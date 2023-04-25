@@ -16,7 +16,7 @@ int get_size(const char *format, int *i)
 	}
 	else if (format[occ] == 'h')
 	{
-		size == S_SHORT;
+		size = S_SHORT;
 	}
 	if (size == 0)
 	{
