@@ -17,7 +17,7 @@
 #define S_SHORT 1
 
 /**
- * struct format - structures
+ * struct fmt - structures
  * @fmt: format
  * @fn: function associated
  */
@@ -36,7 +36,7 @@ struct fmt
 typedef structure fmt fmt_t;
 
 int _printf(const char *format, ...);
-int handles(const char *fmt, int *i, va_list list, char buffer[], 
+int handles(const char *fmt, int *i, va_list list, char buffer[],
 		int flags, int width, int precision, int size);
 
 
